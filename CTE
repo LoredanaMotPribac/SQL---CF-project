@@ -1,0 +1,8 @@
+#This is a query for grouping and in the same time show the maximum of that category.
+
+SELECT rating, MAX(rental_duration)
+FROM film
+GROUP BY rating
+
+	
+				
